@@ -1,0 +1,107 @@
+/* PC */
+@media (min-width: 1024px) {
+  
+}
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  #content .list-places .buy-btn {
+    padding: 15px 16px;
+  }
+
+  .contact-input {
+    border: 1px solid #ccc;
+    padding: 15px 8px;
+  }
+
+  .nav .subnav a {
+    padding: 4px 12px;
+  }
+
+  .contact-icons {
+    padding: 8px;
+  }
+
+  .contact-info {
+    line-height: 2;
+    font-size: 16px;
+  }
+
+  #send-btn {
+    padding: 16px 15px;
+    font-size: 16px;
+  }
+
+  #footer .social-network-icon {
+    font-size: 42px;
+  }
+
+  #footer .social-network a {
+    margin: 0 8px;
+  }
+
+  #footer p a {
+    padding: 12px 0;
+    display: inline-block;
+  }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+/* mobile */
+@media (max-width: 740px) {
+  .nav > li {
+    display: block;
+  }
+  .nav > li:first-child {
+    display: inline-block;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav li a {
+    padding: 1px 24px;
+  }
+
+  .nav .subnav {
+    position: inherit;
+    background-color: #333;
+  }
+
+  .nav .subnav a {
+    color: #fff;
+    padding: 5px 35px;
+  }
+
+  #content .member-img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+  .contact-form {
+    margin-top: 32px;
+  }
+}
